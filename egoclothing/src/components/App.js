@@ -5,25 +5,19 @@ import {
   Redirect
 } from 'react-router-dom';
 
-
-import Home from './Home';
-import Store from './Store';
-import Admin from './Admin';
-
+import Header from './Header';
+import Main from './Main';
+import Footer from './Footer';
 
 
 class App extends React.Component {
   render() {
     return (
-      <div>
-        
-        <Switch>
-          <Route exact path="/"  component={Home} />
-          <Route path="/store" component={Store} />
-          <Route path="/admin" component={Admin} />
-          <Redirect to="/" />
-        </Switch>
-      </div>
+      <React.Fragment>
+        <Header />
+        <Main />
+        <Footer />
+      </React.Fragment>
     )
   }
 }

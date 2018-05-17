@@ -5,7 +5,7 @@ class Store extends React.Component {
   render() {
     return (
       <div>
-        
+        <div className="panel"></div>
       </div>
     )
   }
