@@ -16,6 +16,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        
         <Switch>
           <Route exact path="/"  component={Home} />
           <Route path="/store" component={Store} />

@@ -1,11 +1,15 @@
 import React from 'react';
 import './com-css/Store.css';
+import MenuBar from './Admin/MenuBar';
 
 class Admin extends React.Component {
   render() {
     return (
-      <div>
-        <h1>Admin</h1>
+      <div className="container">
+        <div className="jumbotron">
+          <h1>ADMIN PAGE</h1>
+        </div>
+        <MenuBar></MenuBar>
       </div>
     )
   }

@@ -1,0 +1,22 @@
+.caption p:nth-child(3) {
+  text-align: right;
+}
+
+.caption button {
+  margin-left: 10px;
+}
+
+.jumbotron {
+  margin: 30px 0;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+.panel-success {
+  border: none;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s height linear;
+}
